@@ -1,0 +1,79 @@
+body{
+    /* colocar dois pontos para poder sair da pasta css e entrar na pasta imagens */
+    background-image: url("../imagens/japao.jpg");
+    background-repeat: no-repeat;
+    /* backgroud-position: top deichou ela no topo na tela */
+    background-position:top ;
+    /* esticou a imagem para a tela toda */
+    background-size: cover;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+h1,
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: lightcoral;
+    /* text-shadow é para ter sombriado, ai vc adciona a cor da sombra que vc quer e depois colocamos, 
+    o primeiro 2px para definir o tamanho da sombra da parte do top (cima) e da parte do bottom (baixo) 
+    da imagem e o segundo 2px é para definir o tamanho do lado left(direito) e do right (esquerdo) da imagem*/
+    text-shadow: black 2px 2px;
+}
+
+#contato{
+    text-align: left;
+    font-size: 30px;
+    border-style: solid;
+    border-color: lightyellow;
+    border-width: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+#tabela{
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-size: 24px;
+    color: white;
+}
+
+th{
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+td{
+    border-style: solid;
+    background-color: lightgrey;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#botao{
+    color: red;
+    text-shadow: black 1px 1px;
+    text-align: right;
+}
+
+hr{
+    border: 10px solid lightcoral;
+}
+
+footer{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
