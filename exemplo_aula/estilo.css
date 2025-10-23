@@ -1,0 +1,20 @@
+h1{
+    background-color: aqua;
+}
+
+h2{
+    background-color: darkorange;
+}
+
+/* body pois a imagem vai ser colocada na tela (corpo)*/
+body{
+    /* colocar o link da imagem */
+    background-image: url(https://sp.senai.br/images/senai.svg);
+    /* para que a imagem fique desse tamanho sem repetir */
+    background-repeat: no-repeat;
+    /* para imagem ir para dereita e na parte de cima */
+    background-image: right top;
+    /* para que a imagem do fundo fique fixa sem se mexe, e as escretas que estiverem em cima se mexam
+    ( arrastar a tela para baixo  ou para cima para ver mais texto) sem que a imagem se mova junto */
+    background-attachment: fixed;
+}
