@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu DropDown</title>
+
+    <style>
+        .dropbtn {
+            background-color: #4caf50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            /* o curso faz que quando vc passar o mause em cima a seta vira uma manzinha */
+            cursor: pointer;
+
+            .dropdown{
+                /* o elemento continua ocupando o mesmo espaço */
+                /* mas pode ser movido com top, left, right, bottom */
+                position: relative;
+                display: inline-block;
+            }
+
+            /* estilizando a class dropdown-conteudo */
+            .dropdown-conteudo{
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0 8px 16px 0 rgb(from 0,0,0,0.2);
+                z-index: ;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Menu DropDown SESI</h2>
+    <p>Mova o mause até a botão para abrir o menu DropDown</p>
+    <div class="dropdown">
+        <button class="dropdown">DropDown</button>
+        <div class="dropdown-conteudo">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</body>
+
+</html>
