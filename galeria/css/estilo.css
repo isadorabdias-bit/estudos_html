@@ -1,0 +1,48 @@
+body{
+    background-image: url(../_imagens/capacete-ayrton-senna-senna.jpg);
+    /* a imagem cobre toda area visivel do body, mesmo que precise cortar um pedacinha */
+    background-size: cover;
+    /* para que a imagem do fundo fique fixa */
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    text-shadow: red 1px 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gold;
+    border: red solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.imagem1{
+    border: 15px solid white;
+    /* as imagens vao ocupar 20% de largora e alura da imagem */
+    width: 20%;
+    height: 20%;
+    box-shadow: 3px 3px red;
+    /* deix o elemento como referencia para posicionar coisas dentro dele e permite
+    deslocamentos se precisar */
+    position: relative;
+    /* qualquer mudança que possa ser animada (vai ser feita suavemente em 0,25s */
+    transition: linear 0.25s;
+}
+
+.rotacao1{
+    /* gira o elemento a 5 graus no sentido horario */
+    transform: rotate(5deg);
+}
+
+.rotacao2{
+    /* gira -5 graus no sentido anti horario */
+    transform: rotate(-5deg);
+}
+
+.imagem1:hover{
+    /* ele desfaz qualquer rotacao ( volta para posiçao reta (estatica)) e aumenta
+    o zoom em 1,5x o tamanho */
+    transform: rotate(0deg) scale(1.5);
+}
+
